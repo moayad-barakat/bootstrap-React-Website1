@@ -1,0 +1,183 @@
+.dropdown-menu {
+    display: none;
+
+
+}
+
+.x:hover .dropdown-menu {
+    display: block;
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1367px) {
+    .carousel-caption2 {
+        position: relative;
+        bottom: 500px;
+        left: 200px;
+
+
+    }
+
+
+    .carousel-control-prev-icon {
+        position: relative;
+        bottom: 100px;
+
+    }
+
+
+    .carousel-control-next-icon {
+        position: relative;
+        bottom: 100px;
+    }
+
+    .carousel-h1 {
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .carousel-caption2 {
+        position: relative;
+        bottom: 170px;
+        left: 70px;
+    }
+
+    .carousel-control-prev-icon {
+        position: relative;
+        bottom: 60px;
+
+    }
+
+    .carousel-control-next-icon {
+        position: relative;
+        bottom: 60px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1367px) {
+    .carousel-caption {
+        position: relative;
+        bottom: 500px;
+        left: 200px;
+
+
+    }
+
+
+    .carousel-control-prev-icon {
+        position: relative;
+        bottom: 100px;
+
+    }
+
+
+    .carousel-control-next-icon {
+        position: relative;
+        bottom: 100px;
+    }
+
+    .carousel-h1 {
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .carousel-caption2 {
+        position: relative;
+        bottom: 170px;
+        left: 70px;
+    }
+
+    .carousel-control-prev-icon {
+        position: relative;
+        bottom: 60px;
+
+    }
+
+    .carousel-control-next-icon {
+        position: relative;
+        bottom: 60px;
+
+    }
+
+}
+
+ul {
+    list-style: none;
+}
+
+.empty_div {
+    height: 3px;
+    background-color: red;
+}
+
+.products-link {
+    text-decoration: none;
+    color: black;
+}
+
+.vr {
+    height: 40px;
+
+}
+
+
+.products_imgs {
+    transition: 0.3s;
+}
+
+.products_imgs:hover {
+    transform: scale(1.05);
+}
+
+
+
+.fa-brands{
+    transition: 0.3s;
+}
+.fa-brands:hover{
+padding: 10px;
+border: solid;
+border-radius: 50%;
+background-color: white;
+color: black;
+
+}
+
+.quick-links{
+    text-decoration: none;
+    
+}
