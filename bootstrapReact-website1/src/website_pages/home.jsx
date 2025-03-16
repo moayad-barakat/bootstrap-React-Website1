@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import carousel1 from "../assets/carousel1.jpg";
 import carousel2 from "../assets/carousel2.jpg";
@@ -20,6 +21,7 @@ import testimonial1 from "../assets/testimonial1.jpg";
 import testimonial2 from "../assets/testimonial2.jpg";
 
 import testimonial3 from "../assets/testimonial3.jpg";
+
 
 
 function Home() {
@@ -92,8 +94,8 @@ function Home() {
 
             {/* Start Section2 */}
 
-            <div className="row justify-content-center mt-5 ">
-                <div className="col-md-5 mb-5">
+            <div className="row justify-content-center mt-5" data-aos="fade-up">
+                <div className="col-md-5 mb-5" >
                     <img className="img-fluid " src={about} alt="" />
                 </div>
 
@@ -118,7 +120,7 @@ function Home() {
 
             {/* Start Features Section */}
 
-            <div className="row mt-5 justify-content-center">
+            <div className="row mt-5 justify-content-center" data-aos="fade-up">
                 <div className="col-md-2 w-25 ">
                     <div className="empty_div  ms-4"></div>
 
@@ -129,7 +131,7 @@ function Home() {
 
             </div>
 
-            <div className="row justify-content-evenly mt-5">
+            <div className="row justify-content-evenly mt-5" data-aos="fade-up">
                 <div className="col-md-3 mb-3">
                     <div className="card rounded-5 text-center py-3">
                         <div className="card-body">
@@ -176,7 +178,7 @@ function Home() {
             {/* Start Products Section */}
 
 
-            <div className="row mt-5">
+            <div className="row mt-5" data-aos="fade-up">
 
                 <div className="col-md-12 ">
                     <h1 className="">Our Products</h1>
@@ -184,7 +186,7 @@ function Home() {
                 </div>
 
             </div>
-            <div className="row justify-content-evenly ">
+            <div className="row justify-content-evenly " data-aos="fade-up">
 
                 <div className="col-md-2 mb-3 ">
                     <div className="card text-center">
@@ -303,7 +305,7 @@ function Home() {
 
 
 
-            <div className="row justify-content-evenly gap-3">
+            <div className="row justify-content-evenly gap-3" data-aos="fade-up">
 
                 <div className="col-md-2 mb-3">
                     <div className="card text-center">
@@ -426,32 +428,34 @@ function Home() {
 
 
 
-            {/* Start Firm  Section */}
+            <div className="container-fluid">
+         {/* Start Firm  Section */}
 
-            <div className="row  justify-content-evenly align-items-center bg-success text-white mt-5">
+         <div className="row   justify-content-around align-items-center bg-success text-white mt-5" data-aos="fade-up">
 
-                <div className="col-md-4">
-                    <div >
-                        <h1>Visit Our Firm</h1>
-                        <p className="mt-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
-                    </div>
-                </div>
-
-
-                <div className="col-md-2">
-                    <button className="btn btn-primary w-50 px-3 py-2 rounded-4">Visit More</button>
-                </div>
-
-            </div>
+<div className="col-md-8">
+    <div >
+        <h1>Visit Our Firm</h1>
+        <p className="mt-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+    </div>
+</div>
 
 
-            {/* End Firm  Section */}
+<div className="col-md-2">
+    <button className="btn btn-primary w-75 px-3 py-2 rounded-4">Visit More</button>
+</div>
+
+</div>
+
+
+{/* End Firm  Section */}
+</div>
 
 
 
             {/* Start Customer Review Section */}
 
-            <div className="row justify-content-evenly gap-4 mt-5">
+            <div className="row justify-content-evenly gap-4 mt-5" data-aos="fade-up">
                 <div className="col-md-3 ">
                     <div className="card">
                         <div className="card-footer">

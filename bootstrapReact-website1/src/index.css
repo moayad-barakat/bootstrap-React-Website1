@@ -181,3 +181,15 @@ color: black;
     text-decoration: none;
     
 }
+
+
+.header_height{
+    height: 50vh;
+}
+
+.header-bg{
+    background-image: url("./assets//carousel1.jpg");
+    background-size: cover;
+   
+}
+
